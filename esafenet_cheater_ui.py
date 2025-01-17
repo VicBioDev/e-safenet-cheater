@@ -225,8 +225,8 @@ if __name__ == "__main__":
         file_path = paths[0]
         if is_encrypted_powershell(file_path):
             decrypt_file(file_path)
-            answer = messagebox.askyesno("确认", "解密完成，是否保留原始加密文件？")
-            if not answer:
+            answer = messagebox.askyesno("确认", "解密完成，是否删除原始文件？")
+            if answer:
                 encrypted_file_path = file_path.with_suffix(
                     f".encrypted{file_path.suffix}"
                 )
