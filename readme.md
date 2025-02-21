@@ -1,4 +1,5 @@
 # EsafenetCheater
+
 亿赛通加密破解
 
 EsafenetCheater is a Python-based tool designed to detect and decrypt files that have been encrypted with a custom signature ("Esafenet"). The project provides both a graphical user interface (GUI) using Tkinter and a command-line (CLI) mode. The software is packaged as a Windows installer built using NSIS.
